@@ -1,0 +1,30 @@
+/* ================================================================== */
+/*                             Responsive 
+/* ================================================================== */
+
+@media screen and (min-width: 768px) {
+  #banner .caption h1 {
+    font-size: 2.5rem;
+  }
+  #banner .caption h2 {
+    font-size: 1.55rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #banner .caption h1 {
+    font-size: 3rem;
+  }
+  #banner .caption h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #banner .caption h1 {
+    font-size: 4rem;
+  }
+  #banner .caption h2 {
+    font-size: 2.5rem;
+  }
+}

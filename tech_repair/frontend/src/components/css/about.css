@@ -1,0 +1,256 @@
+/* ================================================================== */
+/*                             About
+/* ================================================================== */
+
+.about {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.78;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 9rem;
+}
+
+.content {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 0rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.about .caption {
+  position: absolute;
+  z-index: 20;
+  color: #ffff;
+  margin-bottom: 10rem;
+}
+
+.social {
+  position: relative;
+  top: 25rem;
+  text-align: center;
+}
+
+.social h2 {
+  z-index: 20;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-family: "Anton", sans-serif;
+  font-size: 1.2rem;
+}
+.icon img {
+  height: 40px;
+  position: relative;
+  width: 40px;
+  z-index: 22;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+
+/* ================================================================== */
+/*                             Responsive 
+/* ================================================================== */
+
+@media screen and (max-width: 319px) and (min-width: 280px) {
+  .about .caption {
+    margin: 5rem 10px 0px 10px;
+  }
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .content {
+    font-size: 0.6rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    top: 16rem;
+  }
+  .social h2 {
+    font-size: 0.8rem;
+  }
+  .social img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .about .caption {
+    margin: 5rem 10px 0px 10px;
+  }
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .content {
+    font-size: 0.6rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    top: 14.5rem;
+  }
+  .social h2 {
+    font-size: 0.8rem;
+  }
+  .social img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .about .caption {
+    margin: 5rem 10px 0px 10px;
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+  }
+  .content {
+    font-size: 0.9rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    top: 20rem;
+  }
+  .social h2 {
+    font-size: 1rem;
+  }
+  .social img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .about .caption {
+    margin: 5rem 10px 0px 10px;
+  }
+  .title {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+  }
+  .content {
+    font-size: 1.2rem;
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    top: 24rem;
+  }
+  .social h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .social img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .about .caption {
+    margin: 5rem 10px 0px 10px;
+  }
+  .title {
+    font-size: 5.2rem;
+    margin-bottom: 5rem;
+  }
+  .content {
+    font-size: 1.4rem;
+    margin-bottom: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    top: 27rem;
+  }
+  .social h2 {
+    font-size: 1.5rem;
+  }
+  .social img {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+/*------- Orientation --------*/
+
+@media screen and (max-width: 640px) and (min-width: 320px) and (orientation: landscape) {
+  .about .caption {
+    margin: 5rem 10px 0px 10px;
+  }
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .content {
+    font-size: 0.5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    top: 8rem;
+  }
+  .social h2 {
+    font-size: 0.7rem;
+    margin-bottom: 9px;
+  }
+  .social img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 641px) and (orientation: landscape) {
+  .about .caption {
+    margin: 5rem 10px 0px 10px;
+  }
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .content {
+    font-size: 0.5rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    top: 7rem;
+  }
+  .social h2 {
+    font-size: 0.5rem;
+    margin-bottom: 9px;
+  }
+  .social img {
+    width: 20px;
+    height: 20px;
+  }
+}

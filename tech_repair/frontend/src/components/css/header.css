@@ -1,0 +1,90 @@
+/* ================================================================== */
+/*                             Header, Nav
+/* ================================================================== */
+
+.header {
+  z-index: 21;
+  position: fixed;
+  height: auto;
+  width: 100%;
+}
+
+.down {
+  z-index: 21;
+  height: auto;
+  width: 100%;
+  background: #2c3e50;
+  transition: 0.7s;
+}
+
+.navbar a {
+  margin: 0rem 0.5rem;
+}
+
+nav.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+  padding: 1.5rem;
+  background-color: transparent;
+}
+
+.navbar img {
+  height: 5rem;
+  width: 5rem;
+}
+
+#navbarNav a {
+  color: rgb(255, 255, 255);
+  font-family: "Anton", sans-serif;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+
+#navbarNav a:hover {
+  color: #00d8cd;
+}
+
+.header button {
+  background-color: transparent;
+}
+
+nav {
+  top: 0;
+  box-shadow: #4ca1af;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+nav .navbar-collapse.collapse {
+  display: block;
+}
+
+nav .navbar-collapse {
+  justify-content: flex-end !important;
+  transition: 0.6s all ease-in-out;
+  height: 0px !important;
+}
+
+/* ================================================================== */
+/*                             Responsive 
+/* ================================================================== */
+
+@media (max-width: 991px) {
+  nav .navbar-collapse.collapse {
+    overflow: hidden;
+    text-align: center;
+  }
+  nav .navbar-collapse.active {
+    height: 100vh !important;
+    margin-top: 5rem;
+  }
+  .navbar {
+    background-color: #2c3e50;
+  }
+  #navbarNav a {
+    font-size: 1.3rem;
+  }
+}

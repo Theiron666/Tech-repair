@@ -1,0 +1,80 @@
+/* ================================================================== */
+/*                              Card
+/* ================================================================== */
+
+.App {
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ca1af,
+    #2c3e50
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4ca1af,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px #00d8cd !important;
+  transition: all 0.7s linear;
+}
+
+.card-body {
+  padding: 3rem 0rem !important;
+}
+
+.card-img-top {
+  transition: all 0.6s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.5);
+}
+
+.overflow {
+  overflow: hidden;
+  border-radius: 1rem 1rem 0rem 0rem !important;
+}
+
+.card-text {
+  margin-top: 20px;
+}
+
+.card-title {
+  font-family: "Anton", sans-serif;
+}
+
+.card .btn {
+  font-family: "Anton", sans-serif;
+}
+
+.card .btn:hover {
+  border-color: #00d8cd;
+}
+
+.card {
+  border-radius: 15px !important;
+}
+
+#cards {
+  margin-bottom: 4em;
+  margin-top: 4em;
+}
+
+/* ================================================================== */
+/*                              Responsive
+/* ================================================================== */
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  #cards {
+    padding: 30px 7px 30px 7px !important;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  #cards {
+    padding: 20px 20px 30px 20px !important;
+  }
+}
