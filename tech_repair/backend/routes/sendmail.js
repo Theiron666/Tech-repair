@@ -8,8 +8,8 @@ router.post("/", (req, res) => {
     port: 2525,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "6393d63e745315", // generated ethereal user
-      pass: "be886ff787ded2", // generated ethereal password
+      user: "", // generated ethereal user
+      pass: "", // generated ethereal password
     },
   });
 
